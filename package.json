@@ -1,0 +1,17 @@
+{
+  "name": "server_hb_db3",
+  "version": "1.0.0",
+  "description": "Servidor com Banco de Dados",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Murillo",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mysql2": "^3.3.2",
+    "sequelize": "^6.31.1"
+  }
+}

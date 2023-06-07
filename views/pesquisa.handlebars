@@ -1,0 +1,13 @@
+<h1>Pesquisa produto pelo código</h1>
+<br>
+<form action="/pesquisar" method="post">
+<label for="codigo"></label><br>
+<input type="text" name="codigo" placeholder="Código do produto">
+<br><br>
+<button type="submit">Pesquisar </button>
+</form>
+<br><br>
+{{#each valor}}
+p>Código:{{valor.ad}}&emsp;Nome Verdura:{{this.verduras}}&emsp;Quantdade:{{valor.qtde}}&emsp;Preço:{{valor.preco_un}}</p>
+
+{{/each}}
